@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fab-rvn/npm-intro/issues"
   },
-  "homepage": "https://github.com/fab-rvn/npm-intro#readme"
+  "homepage": "https://github.com/fab-rvn/npm-intro#readme",
+  "dependencies": {
+    "momentjs": "^2.0.0"
+  }
 }
