@@ -1,0 +1,19 @@
+{
+  "name": "npm-intro",
+  "version": "1.0.0",
+  "description": "Getting started with NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fab-rvn/npm-intro.git"
+  },
+  "author": "faber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fab-rvn/npm-intro/issues"
+  },
+  "homepage": "https://github.com/fab-rvn/npm-intro#readme"
+}
