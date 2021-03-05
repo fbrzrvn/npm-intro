@@ -4,7 +4,7 @@
   "description": "Getting started with NPM",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/fab-rvn/npm-intro#readme",
   "dependencies": {
     "lodash": "^4.17.14",
-    "momentjs": "^2.0.0"
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "jest": "^26.6.3"
