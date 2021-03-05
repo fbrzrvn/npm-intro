@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fab-rvn/npm-intro#readme",
   "dependencies": {
+    "lodash": "^4.17.14",
     "momentjs": "^2.0.0"
   }
 }
