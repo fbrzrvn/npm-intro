@@ -7,10 +7,10 @@ test('creates an array of 6 elements lol', () => {
 
 test('moves a string to camel case', () => {
   const  string = 'User name';
-  expect(util.toCamelCase('user name')).toBe('User Name');
+  expect(util.toCamelCase('user name')).toBe('userName');
 });
 
 test('gets the index of a given values', () => {
   const arrayColors = ['red', 'blue', 'green'];
-  expect(util.getIndexOf(arrayColors, 2)).toBe('green');
+  expect(util.getIndexOf(arrayColors, 'green')).toBe(2);
 });

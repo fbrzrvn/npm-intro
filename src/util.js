@@ -5,13 +5,11 @@ const createArray = arraySize => {
 }
 
 const toCamelCase = string => {
-  return string.split(" ")
-  .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-  .join(" ");
+  return lodash.camelCase(string);
 }
 
 const getIndexOf = (array, value) => {
-  return array[value];
+  return lodash.indexOf(array, value);
 }
 
 module.exports = { createArray, toCamelCase, getIndexOf };
